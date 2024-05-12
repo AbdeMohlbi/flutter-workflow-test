@@ -31,7 +31,7 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
-          java-version: 22
+          java-version: 21
           distribution: "temurin"
 
       - name: Build APK
